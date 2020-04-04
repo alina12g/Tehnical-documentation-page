@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<head>
+     <link rel="stylesheet" href="main.css">
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+<nav id="navbar">
+    <header>HTML</header>
+    <a href="#markup" class="nav-link">Markup</a>
+    <a href="#elements" class="nav-link">Elements</a>
+    <a href="#attributes" class="nav-link">Attributes</a>
+    <a href="#character_and_entity_references" class="nav-link">Character and entity references</a>
+    <a href="#data_types" class="nav-link">Data types</a>
+    <a href="#see_also" class="nav-link">See also</a>
+</nav>
+
+<main id="main-doc">
+    <section class="main-section" id="markup">
+    <header>Markup</header>
+        <p>HTML markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and entity references. HTML tags most commonly come in pairs like H1 and <code><h1></h1></code>, although some represent empty elements and so are unpaired, for example <code><img></code>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening tags and closing tags).</p>
+    </section>
+    
+    <section class="main-section" id="elements">
+    <header>Elements</header>
+        <p>HTML documents imply a structure of nested HTML elements. These are indicated in the document by HTML tags, enclosed in angle brackets thus:<code><p></p></code>. </p>
+        <p>Many tags, particularly the closing end tag for the very commonly used paragraph element P, are optional. An HTML browser or other agent can infer the closure for the end of an element from the context and the structural rules defined by the HTML standard. These rules are complex and not widely understood by most HTML coders.</p>
+        <p>Some elements, such as the line break <code><br></code>, do not permit any embedded content, either text or further tags. These require only a single empty tag (akin to a start tag) and do not use an end tag.</p>
+        <p>Many tags, particularly the closing end tag for the very commonly used paragraph element <code><p></p></code>, are optional. An HTML browser or other agent can infer the closure for the end of an element from the context and the structural rules defined by the HTML standard. These rules are complex and not widely understood by most HTML coders.</p>
+    </section>
+    
+    <section class="main-section" id="attributes">
+    <header>Attributes</header>
+        <p>Most of the attributes of an element are name-value pairs, separated by = and written within the start tag of an element after the element's name. The value may be enclosed in single or double quotes, although values consisting of certain characters can be left unquoted in HTML (but not XHTML). Leaving attribute values unquoted is considered unsafe. In contrast with name-value pair attributes, there are some attributes that affect the element simply by their presence in the start tag of the element, like the ismap attribute for the img element.</p>
+        <p>There are several common attributes that may appear in many elements :</p>
+<ul>
+<li>The id attribute provides a document-wide unique identifier for an element. This is used to identify the element so that stylesheets can alter its presentational properties, and scripts may alter, animate or delete its contents or presentation. Appended to the URL of the page, it provides a globally unique identifier for the element, typically a sub-section of the page. For example, the ID "Attributes" in https://en.wikipedia.org/wiki/HTML#Attributes. </li>
+<li>The class attribute provides a way of classifying similar elements. This can be used for semantic or presentation purposes. For example, an HTML document might semantically use the designation <code>class="notation" </code>to indicate that all elements with this class value are subordinate to the main text of the document. In presentation, such elements might be gathered together and presented as footnotes on a page instead of appearing in the place where they occur in the HTML source. Class attributes are used semantically in microformats. Multiple class values may be specified; for example <code>class="notation important"</code> puts the element into both the notation and the important classes.</li>
+<li>An author may use the style attribute to assign presentational properties to a particular element. It is considered better practice to use an element's id or class attributes to select the element from within a stylesheet, though sometimes this can be too cumbersome for a simple, specific, or ad hoc styling.</li>
+<li>The title attribute is used to attach subtextual explanation to an element. In most browsers this attribute is displayed as a tooltip.</li>
+<li>The lang attribute identifies the natural language of the element's contents, which may be different from that of the rest of the document.</li> 
+        </ul>
+    </section>
+    
+    <section class="main-section" id="character_and_entity_references">
+    <header>Character and entity references</header>
+        <p>As of version 4.0, HTML defines a set of 252 character entity references and a set of 1,114,050 numeric character references, both of which allow individual characters to be written via simple markup, rather than literally. A literal character and its markup counterpart are considered equivalent and are rendered identically.</p>
+    </section>
+    
+    <section class="main-section" id="data_types">
+    <header>Data types</header>
+        <p>HTML defines several data types for element content, such as script data and stylesheet data, and a plethora of types for attribute values, including IDs, names, URIs, numbers, units of length, languages, media descriptors, colors, character encodings, dates and times, and so on. All of these data types are specializations of character data.</p>
+    </section>
+    
+    <section class="main-section" id="see_also">
+    <header>See also</header>
+        <h3>HTML5</h3>
+        <p>HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup-based pattern to it.</p>
+    </section>
+</main>
+</body>
